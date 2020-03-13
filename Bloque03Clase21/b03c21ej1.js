@@ -8,7 +8,16 @@
 */
 
 //tu código va aquí vvv
-
+let n = Infinity; //aquí pones cualquier valor
+function multiplica(n) {
+    let i = 0;
+    while(i<=10) {
+        let resultado = n*i;
+        console.log("La multiplicación de "+n+" x "+i+" es igual a: "+resultado);
+        i++;
+    }
+}
+multiplica(n);
 //tu código va aquí ^^^
 
 //eof
